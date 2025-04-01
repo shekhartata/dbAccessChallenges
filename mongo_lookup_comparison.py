@@ -8,7 +8,7 @@ import statistics
 from pymongo.errors import BulkWriteError
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://shekharadmin123:shekhartestmongo@cluster1.eyv8o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1')
+client = MongoClient('mongodb+srv://shekharadmin123:<>@cluster1.eyv8o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1')
 db = client['lookup_comparison_db']
 
 # Collections
